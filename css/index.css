@@ -1,0 +1,40 @@
+.NavPrincipal{
+
+  background:#333333 !important;
+}
+
+.logotipo{
+  position:absolute;
+  background-color: #549dc5;
+  padding:0 20px;
+  top:1%;
+  left:17%;
+}
+.CarruselUno{
+  position:absolute;
+  width:100%;
+  height:50%;
+  background-color: orange;
+  background-image: url('../img/parallax1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.items-Cuno{
+  margin-top:10%;
+  background-color: orange;
+  width:100%;
+  height:30%;
+  position:absolute;
+}
+
+.GaleriaUno{
+
+  position:absolute;
+  width:100%;
+  margin:
+
+
+}

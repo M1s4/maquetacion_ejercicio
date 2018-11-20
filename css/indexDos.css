@@ -1,0 +1,510 @@
+.contenedor1{
+  display: flex;
+  background-color:#2e2e2e;
+  height: 50px;
+  color:white;
+  font-size:.8rem;
+}
+
+.itemsli{
+  padding: 12px 10px;
+}
+
+.item1 {
+  flex-basis: 40%;
+
+}
+.item2 {
+  flex-basis: 5%;
+
+}
+.item3 {
+  flex-basis: 5%;
+
+}
+.item4 {
+  flex-basis: 5%;
+
+}
+.item5 {
+  flex-basis: 5%;
+
+}
+.item6 {
+  flex-basis: 5%;
+
+}
+.item7 {
+  flex-basis: 5%;
+
+}
+.item8 {
+  flex-basis: 5%;
+
+}
+.item9 {
+  flex-basis: 25%;
+
+}
+
+.logotipo{
+  position:absolute;
+  background-color: #549dc5;
+  padding:0 20px;
+  top:0;
+  left:17%;
+  z-index:3;
+}
+
+.contenedorUno{
+  display: flex;
+  height: 400px;
+  color:white;
+  font-size:2rem;
+}
+
+.itemUno{
+  flex-basis: 10%;
+}
+.itemDos {
+  flex-basis: 80%;
+}
+.itemTres {
+  flex-basis: 10%;
+
+}
+
+.Content-info{
+
+  height: 300px;
+  color:black;
+  font-size:2rem;
+
+}
+.Content-info p{
+  text-align: center;
+}
+ .contenidoUno{
+  padding-top:40%;
+}
+
+.botones{
+  width:10%;
+  margin-left:25%;
+}
+
+/*.carouselUno{
+  background-color: #000;
+  height: 300px;
+  color:white;
+  font-size:2rem;
+  margin-top:5%;
+
+  /*position:absolute;
+  width:100%;
+  height:50%;
+  background-color: orange;
+  background-image: url('../img/parallax1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+
+
+#contenedor1{
+  display: flex;
+  background-color: #000;
+  height: 400px;
+  color:white;
+  font-size:2rem;
+  width:100%;
+
+  background-color: orange;
+  background-image: url('../img/parallax1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#item1 {
+  flex-basis: 35%;
+}
+#item2 {
+  flex-basis: 30%;
+}
+#item3 {
+  flex-basis: 35%;
+}
+
+.galeria{
+  display: flex;
+  background-color: #000;
+  width: auto;
+  height: auto;
+  color:white;
+  font-size:2rem;
+}
+
+.izquierda {
+  flex-basis: 10%;
+  background-color: #0078A6;
+}
+.centro {
+  flex-basis: 80%;
+  background-color: #0084B6;
+}
+.derecha {
+  flex-basis: 10%;
+  background-color: #008CC1;
+}
+/*Carrusel Dos */
+.carouselDos{
+  display: flex;
+  background-color: #000;
+  height: 300px;
+  color:white;
+  font-size:2rem;
+  background-color: orange;
+  background-image: url('../img/parallax2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Lizquierdo {
+  flex-basis: 20%;
+}
+.Lcentro {
+  flex-basis: 60%;
+  padding:6% 10px;
+}
+.Lcentro{
+  text-align: center;
+}
+.Lderecho {
+  flex-basis: 20%;
+}
+.acercaDe{
+  display: flex;
+  height: auto;
+  color:black;
+  font-size:2rem;
+}
+.ADIzquierda {
+  flex-basis: 10%;
+
+}
+.ADcentro {
+  flex-basis: 80%;
+}
+.ADderecha {
+  flex-basis: 10%;
+
+}
+
+.ADinfo{
+  display: flex;
+  height: auto;
+  font-size:1rem;
+}
+.ADIizquierda {
+  flex-basis: 70%;
+  color:black;
+  padding:0 5px;
+}
+
+.ADIderecha {
+  flex-basis: 30%;
+}
+
+.ADIderecha img{
+  width:100%;
+   height:100%;
+}
+
+.text-cent{
+  text-align: center;
+}
+
+.text-short{
+  font-size:.8rem;
+}
+
+.skills{
+  display: flex;
+  height: auto;
+  color:black;
+}
+
+.skillLIzquierda{
+  flex-basis: 10%;
+}
+
+.skillIzquierda {
+  flex-basis: 25%;
+  font-size: .8rem;
+  padding:10px 10px;
+}
+.skillIzquierda p{
+}
+
+.skillCentro {
+  flex-basis: 25%;
+  font-size: 1rem;
+}
+.skillDerecha {
+  flex-basis: 30%;
+  padding:0px 10px;
+
+}
+
+.skillLDerecha{
+  flex-basis: 10%;
+
+}
+
+.progress-list li {
+    margin-bottom: 20px;
+}
+
+.progress-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.textM{
+  font-size: 1.1rem;
+}
+.textCH{
+  font-size:.8rem;
+  padding: 5px 15px;
+}
+.tituloUno{
+  padding:15px 5px;
+}
+
+.bordes{
+padding:15px 15px;
+border: 1px solid rgba(0,0,0,0.35);
+margin:0 0;
+font-size: .9rem;
+}
+
+.bordesM{
+padding:15px 15px;
+border: 1px solid rgba(0,0,0,0.35);
+margin:10px 0;
+font-size: 1rem;
+}
+.skillDerecha{
+  display: flex;
+  flex-direction: column;
+  font-size:2rem;
+  color:black;
+}
+
+
+.SKDcontentUno{
+  flex-basis: 33%;
+}
+.SKDFoto{
+  display:flex;
+  flex-basis: 33%;
+  margin:0 0 30px 0;
+}
+
+.iconoUno{
+  flex-basis: 25%;
+  background-color: red;
+}
+
+.SKDVideo {
+  display:flex;
+  flex-basis: 33%;
+  margin:0 0 30px 0;
+}
+.SKDRadio {
+  display:flex;
+  flex-basis: 34%;
+  margin:0 0 30px 0;
+}
+
+.barraUno{
+  margin:80px 0px;
+}
+hr {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.16);
+    padding-bottom: 40px;
+    width:80%;
+}
+h3,h3,h4,h5, a{
+  color:black !important;
+}
+
+.social {
+    padding: 0;
+    margin: 0 0 -5px 0;
+    font-size: 0;
+    line-height: 1;
+  }
+  .CarouselTres{
+  display: flex;
+  background-color: #000;
+  height: 300px;
+  color:white;
+  font-size:2rem;
+
+  background-color: orange;
+  background-image: url('../img/parallax4.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CarouselTUno {
+  flex-basis:12%;
+}
+.CarouselTDos {
+  flex-basis:12%;
+  background-color: #0084B6;
+}
+.CarouselTTres {
+  flex-basis:12%;
+}
+.CarouselTCuatro {
+  flex-basis:12%;
+  background-color: #008CC1;
+}
+.CarouselTCinco{
+  flex-basis:12%;
+}
+.CarouselTSeis {
+  flex-basis:12%;
+  background-color: #008CC1;
+}
+.CarouselTSiete {
+  flex-basis:12%;
+}
+.CarouselTOcho {
+  flex-basis:12%;
+  background-color: #008CC1;
+}
+.CarouselTNueve {
+  flex-basis:13%;
+}
+
+.PricesContent{
+  display: flex;
+  height: auto;
+  color:black;
+  font-size:2rem;
+}
+
+.PricesCLeft {
+  flex-basis: 10%;
+}
+.PricesCCenter {
+  display: block;
+  flex-basis: 80%;
+  font-size: 1rem;
+}
+.PricesCRight {
+  flex-basis: 10%;
+}
+
+
+.carouselCuatro{
+  display: flex;
+  background-color: #000;
+  height: 300px;
+  color:white;
+  font-size:1.6rem;
+  background-image: url('../img/parallax4.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:90px 0 0 0;
+}
+
+
+.carouselCuatroLeft {
+  flex-basis: 15%;
+}
+.carouselCuatroCenter {
+  flex-basis: 70%;
+}
+.carouselCuatroRight {
+  flex-basis: 15%;
+}
+mt-5{
+  margin-top:8rem;
+}
+.parentesis{
+  font-size: 2rem;
+}
+
+.formularioF{
+  display: flex;
+  background-color: #f1f1f1;
+  height: auto;
+  color:black;
+  font-size:2rem;
+}
+.FLeft {
+  flex-basis: 15%;
+}
+.FCenter {
+  flex-basis: 70%;
+  font-size: 1.2rem;
+}
+.FRight {
+  flex-basis: 15%;
+}
+.contact-info {
+    list-style: none;
+    padding: 0;}
+
+    .contact-info li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+.None-border{
+  background:none !important;
+  border: 0 !important;
+    border-bottom: 1px solid rgba(0,0,0,0.22)!important;
+}
+.mapaG{
+  display: flex;
+  height: auto;
+  color:white;
+   background-color: #f1f1f1;
+  font-size:2rem;
+  padding:50px 0 0 0;
+}
+.cardNone{
+  border:0 !important;
+}
+
+.footer{
+  display: flex;
+  height: 50px;
+  color:white;
+    background-color: #292929;
+  font-size:2rem;
+}
+
+.footerLeft {
+  flex-basis: 20%;
+}
+.footerCenter {
+  flex-basis: 60%;
+}
+.footerRight {
+  flex-basis: 20%;
+}
